@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isEvenOddTree(TreeNode* root) {
+    bool isEvenOddTree(TreeNode*   root) {
        queue<TreeNode*> que;
       
         que.push(root);
