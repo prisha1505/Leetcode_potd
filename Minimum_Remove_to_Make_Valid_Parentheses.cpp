@@ -4,7 +4,7 @@ public:
           int open = 0;
         string temp = "";
         
-        for(char c:s) {
+        for(char c:s) { 
             if(c == '(') {
                 open++;
             } else if(c == ')') {
